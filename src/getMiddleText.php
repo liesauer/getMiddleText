@@ -83,13 +83,13 @@ function getMiddleText($wholeText, $leftText, $rightText, $offset = 0, &$positio
 
 /**
  * 取中间文本组
- * @param  string           $wholeText 寻找文本
- * @param  string           $leftText  左边文本
- * @param  string           $rightText 右边文本
- * @param  int              $offset    开始查找位置
- * @param  int              &$position 返回最后找到文本的位置，找不到返回-1
- * @param  int              $padding   填充
- * @return string[]|false
+ * @param  string     $wholeText 寻找文本
+ * @param  string     $leftText  左边文本
+ * @param  string     $rightText 右边文本
+ * @param  int        $offset    开始查找位置
+ * @param  int        &$position 返回最后找到文本的位置，找不到返回-1
+ * @param  int        $padding   填充
+ * @return string[]
  */
 function getMiddleTexts($wholeText, $leftText, $rightText, $offset = 0, &$position = 0, $padding = INCLUDING_NOTHING)
 {
