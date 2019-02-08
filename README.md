@@ -86,7 +86,7 @@ TEST
 ## 保存查找到的位置
 保存查找到的位置，以供下次顺序查找，能一定地提高效率
 ```php
-getMiddleText($text, '<title>', '</title>', 10，$pos);
+getMiddleText($text, '<title>', '</title>', 10, $pos);
 getMiddleText($text, '<div>', '</div>', $pos, $pos, INCLUDING_BOTH);
 ```
 
